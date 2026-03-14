@@ -561,10 +561,18 @@
 },
 {
     "model": "sessions.session",
-    "pk": "uuj2judf5r9h4ztsi7ofufldww8cufhm",
+    "pk": "mok27msvj8fm3qqu78wq3d9s5qggok2e",
     "fields": {
-        "session_data": ".eJxVjMsOwiAQRf-FtSFQ3i7d-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MykYqffMUF-UNsJ3qHdOs-9rcuc-K7wgw5-7UjPy-H-HVQY9VtPwaOftCuOCLW3XqI0gYQFo0FDUclnIwVi0i4HhaoYa1VJjpzx1gn2_gD-yjfG:1w1NlS:enyVejYDk0AzFD3A2IpZh9trS2vbHjMRQgmOiTUPV1c",
-        "expire_date": "2026-03-28T12:06:42.355Z"
+        "session_data": ".eJxVjEEOgjAQRe_StWmK03YYl-45A5l2RosaSCisjHcXEha6_e-9_zY9r0vp16pzP4i5mMacfrfE-anjDuTB432yeRqXeUh2V-xBq-0m0df1cP8OCtey1e0th-iSxlYkeYyIGDypostAqIAJaUOgxIEApDmzUuvIBYos4M3nC9_xN3U:1w1UUx:8EzYbguoBxKB7omtt1Hamsh2ulUnphj7P520K1D5FZg",
+        "expire_date": "2026-03-28T19:18:07.543Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nrial0huv985rw0gz6czq9n5lhnclcjx",
+    "fields": {
+        "session_data": ".eJxVjEEOgjAQRe_StWmK03YYl-45A5l2RosaSCisjHcXEha6_e-9_zY9r0vp16pzP4i5mMacfrfE-anjDuTB432yeRqXeUh2V-xBq-0m0df1cP8OCtey1e0th-iSxlYkeYyIGDypostAqIAJaUOgxIEApDmzUuvIBYos4M3nC9_xN3U:1w1UTW:O8YYYQkPl4bHi3Xjxa3cqp0b_Ff2OlWhzfaXGhTX_UU",
+        "expire_date": "2026-03-28T19:16:38.161Z"
     }
 },
 {
@@ -572,7 +580,7 @@
     "pk": 1,
     "fields": {
         "password": "plaintext$$a",
-        "last_login": "2026-03-14T10:23:44.385Z",
+        "last_login": "2026-03-14T19:18:07.535Z",
         "is_superuser": true,
         "username": "a",
         "first_name": "a",
@@ -614,7 +622,7 @@
     "pk": 3,
     "fields": {
         "password": "plaintext$$m",
-        "last_login": null,
+        "last_login": "2026-03-14T19:11:31.221Z",
         "is_superuser": false,
         "username": "m",
         "first_name": "m",
@@ -1827,6 +1835,114 @@
         "description": "Женские Ботинки демисезонные",
         "photo": "picture.png",
         "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "sku": "aaaaaa",
+        "product_name": "Кроссовки",
+        "unit_of_measurement": "шт.",
+        "price": "100.00",
+        "supplier": 1,
+        "manufacturer": 4,
+        "product_category": "Женская обувь",
+        "discount": "3.00",
+        "stock": 2,
+        "description": "aaaaaaaa",
+        "photo": "car.jpeg",
+        "version": 1773515018759038
+    }
+},
+{
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "sku": "bbbbbb",
+        "product_name": "Кеды",
+        "unit_of_measurement": "шт.",
+        "price": "20.00",
+        "supplier": 1,
+        "manufacturer": 1,
+        "product_category": "Женская обувь",
+        "discount": "3.00",
+        "stock": 333,
+        "description": "bbbbbbb",
+        "photo": "kettle.jpeg",
+        "version": 1773515280859743
+    }
+},
+{
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+        "sku": "ccccc",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "444.00",
+        "supplier": 1,
+        "manufacturer": 1,
+        "product_category": "Женская обувь",
+        "discount": "12.00",
+        "stock": 111,
+        "description": "cccccc",
+        "photo": "pencil.jpeg",
+        "version": 1773515316240107
+    }
+},
+{
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+        "sku": "ddd",
+        "product_name": "Кроссовки",
+        "unit_of_measurement": "шт.",
+        "price": "333.00",
+        "supplier": 1,
+        "manufacturer": 1,
+        "product_category": "Женская обувь",
+        "discount": "33.00",
+        "stock": 222,
+        "description": "ddd",
+        "photo": "picture.png",
+        "version": 1773515350965540
+    }
+},
+{
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+        "sku": "eeeeee",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "22222.00",
+        "supplier": 1,
+        "manufacturer": 4,
+        "product_category": "Мужская обувь",
+        "discount": "3.00",
+        "stock": 33333,
+        "description": "eeeeeeee",
+        "photo": "picture.png",
+        "version": 1773515385957708
+    }
+},
+{
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+        "sku": "ffffff",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "843.00",
+        "supplier": 1,
+        "manufacturer": 1,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 5,
+        "description": "ffffff",
+        "photo": "girl.jpeg",
+        "version": 1773515422261446
     }
 },
 {
