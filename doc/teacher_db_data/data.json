@@ -288,6 +288,42 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add manufacturer",
+        "content_type": 9,
+        "codename": "add_manufacturer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change manufacturer",
+        "content_type": 9,
+        "codename": "change_manufacturer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete manufacturer",
+        "content_type": 9,
+        "codename": "delete_manufacturer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view manufacturer",
+        "content_type": 9,
+        "codename": "view_manufacturer"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -381,6 +417,14 @@
     "fields": {
         "app_label": "orders",
         "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "manufacturers",
+        "model": "manufacturer"
     }
 },
 {
@@ -1055,6 +1099,48 @@
         "client": 8,
         "code": 910,
         "status": "Новый "
+    }
+},
+{
+    "model": "manufacturers.manufacturer",
+    "pk": 1,
+    "fields": {
+        "manufacturer_name": "Alessio Nesca"
+    }
+},
+{
+    "model": "manufacturers.manufacturer",
+    "pk": 2,
+    "fields": {
+        "manufacturer_name": "CROSBY"
+    }
+},
+{
+    "model": "manufacturers.manufacturer",
+    "pk": 3,
+    "fields": {
+        "manufacturer_name": "Kari"
+    }
+},
+{
+    "model": "manufacturers.manufacturer",
+    "pk": 4,
+    "fields": {
+        "manufacturer_name": "Marco Tozzi"
+    }
+},
+{
+    "model": "manufacturers.manufacturer",
+    "pk": 5,
+    "fields": {
+        "manufacturer_name": "Rieker"
+    }
+},
+{
+    "model": "manufacturers.manufacturer",
+    "pk": 6,
+    "fields": {
+        "manufacturer_name": "Рос"
     }
 }
 ]
