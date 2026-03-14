@@ -252,6 +252,42 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 8,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 8,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 8,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 8,
+        "codename": "view_order"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -337,6 +373,14 @@
     "fields": {
         "app_label": "offices",
         "model": "office"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "orders",
+        "model": "order"
     }
 },
 {
@@ -891,6 +935,126 @@
     "pk": 36,
     "fields": {
         "address": "190949, г. Лесной, ул. Мичурина, 26"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "order_date": "2025-02-27",
+        "delivery_date": "2025-04-20",
+        "office": 1,
+        "client": 8,
+        "code": 901,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+        "order_date": "2022-09-28",
+        "delivery_date": "2025-04-21",
+        "office": 11,
+        "client": 5,
+        "code": 902,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+        "order_date": "2025-03-21",
+        "delivery_date": "2025-04-22",
+        "office": 2,
+        "client": 6,
+        "code": 903,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 4,
+    "fields": {
+        "order_date": "2025-02-20",
+        "delivery_date": "2025-04-23",
+        "office": 11,
+        "client": 7,
+        "code": 904,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 5,
+    "fields": {
+        "order_date": "2025-03-17",
+        "delivery_date": "2025-04-24",
+        "office": 2,
+        "client": 8,
+        "code": 905,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 6,
+    "fields": {
+        "order_date": "2025-03-01",
+        "delivery_date": "2025-04-25",
+        "office": 15,
+        "client": 5,
+        "code": 906,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 7,
+    "fields": {
+        "order_date": "2025-03-02",
+        "delivery_date": "2025-04-26",
+        "office": 3,
+        "client": 6,
+        "code": 907,
+        "status": "Завершен"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 8,
+    "fields": {
+        "order_date": "2025-03-31",
+        "delivery_date": "2025-04-27",
+        "office": 19,
+        "client": 7,
+        "code": 908,
+        "status": "Новый "
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 9,
+    "fields": {
+        "order_date": "2025-04-02",
+        "delivery_date": "2025-04-28",
+        "office": 5,
+        "client": 8,
+        "code": 909,
+        "status": "Новый "
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 10,
+    "fields": {
+        "order_date": "2025-04-03",
+        "delivery_date": "2025-04-29",
+        "office": 19,
+        "client": 8,
+        "code": 910,
+        "status": "Новый "
     }
 }
 ]
