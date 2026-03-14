@@ -216,6 +216,42 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add office",
+        "content_type": 7,
+        "codename": "add_office"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change office",
+        "content_type": 7,
+        "codename": "change_office"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete office",
+        "content_type": 7,
+        "codename": "delete_office"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view office",
+        "content_type": 7,
+        "codename": "view_office"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -293,6 +329,22 @@
     "fields": {
         "app_label": "accounts",
         "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "offices",
+        "model": "office"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uuj2judf5r9h4ztsi7ofufldww8cufhm",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFQ3i7d-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MykYqffMUF-UNsJ3qHdOs-9rcuc-K7wgw5-7UjPy-H-HVQY9VtPwaOftCuOCLW3XqI0gYQFo0FDUclnIwVi0i4HhaoYa1VJjpzx1gn2_gD-yjfG:1w1NlS:enyVejYDk0AzFD3A2IpZh9trS2vbHjMRQgmOiTUPV1c",
+        "expire_date": "2026-03-28T12:06:42.355Z"
     }
 },
 {
@@ -384,7 +436,7 @@
     "pk": 5,
     "fields": {
         "password": "plaintext$$uzWC67",
-        "last_login": null,
+        "last_login": "2026-03-14T12:06:09.481Z",
         "is_superuser": true,
         "username": "94d5ous@gmail.com",
         "first_name": "Весения",
@@ -552,7 +604,7 @@
     "pk": 13,
     "fields": {
         "password": "plaintext$$gynQMT",
-        "last_login": null,
+        "last_login": "2026-03-14T12:06:42.350Z",
         "is_superuser": false,
         "username": "1qz4kw@mail.com",
         "first_name": "Петр",
