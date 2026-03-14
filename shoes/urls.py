@@ -24,13 +24,14 @@ from django.conf import settings  # PREP
 from django.conf.urls.static import static  # PREP
 
 from home.views import HomeView
-from products.views import ProductCreateView, ProductUpdateView
+from products.views import ProductCreateView, ProductUpdateView, ProductDeleteView
 
 urlpatterns = [
     path("accounts/", include("django.contrib.auth.urls")),
     path("", login_required(HomeView.as_view()), name="home"),
     path("admin/", admin.site.urls),
     path('products/create/', login_required(ProductCreateView.as_view()), name='product_create'),
+    path('products/<int:pk>/delete/', login_required(ProductDeleteView.as_view()), name='product_delete'),
 ]
 
 urlpatterns += i18n_patterns(
