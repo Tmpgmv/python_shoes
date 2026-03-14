@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Order(models.Model):
     STATUSES = [("Новый", "Новый"), ("Завершен", "Завершен")]
@@ -25,6 +26,18 @@ class Order(models.Model):
                               choices=STATUSES,
                               default='Новый',
                               verbose_name="Статус")
+
+    def save(self, *args, **kwargs):
+        if self.pk is None:  # STUD! Новый заказ.
+            max_code_order = Order.objects.order_by('-pk').first()
+
+            if max_code_order:
+                max_code = max_code_order.code
+            else:
+                max_code = 0
+
+            self.code = max_code + 1
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return "Заказ: " + str(self.pk)
