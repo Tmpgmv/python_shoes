@@ -640,5 +640,257 @@
         ],
         "user_permissions": []
     }
+},
+{
+    "model": "offices.office",
+    "pk": 1,
+    "fields": {
+        "address": "420151, г. Лесной, ул. Вишневая, 32"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 2,
+    "fields": {
+        "address": "125061, г. Лесной, ул. Подгорная, 8"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 3,
+    "fields": {
+        "address": "630370, г. Лесной, ул. Шоссейная, 24"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 4,
+    "fields": {
+        "address": "400562, г. Лесной, ул. Зеленая, 32"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 5,
+    "fields": {
+        "address": "614510, г. Лесной, ул. Маяковского, 47"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 6,
+    "fields": {
+        "address": "410542, г. Лесной, ул. Светлая, 46"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 7,
+    "fields": {
+        "address": "620839, г. Лесной, ул. Цветочная, 8"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 8,
+    "fields": {
+        "address": "443890, г. Лесной, ул. Коммунистическая, 1"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 9,
+    "fields": {
+        "address": "603379, г. Лесной, ул. Спортивная, 46"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 10,
+    "fields": {
+        "address": "603721, г. Лесной, ул. Гоголя, 41"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 11,
+    "fields": {
+        "address": "410172, г. Лесной, ул. Северная, 13"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 12,
+    "fields": {
+        "address": "614611, г. Лесной, ул. Молодежная, 50"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 13,
+    "fields": {
+        "address": "454311, г.Лесной, ул. Новая, 19"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 14,
+    "fields": {
+        "address": "660007, г.Лесной, ул. Октябрьская, 19"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 15,
+    "fields": {
+        "address": "603036, г. Лесной, ул. Садовая, 4"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 16,
+    "fields": {
+        "address": "394060, г.Лесной, ул. Фрунзе, 43"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 17,
+    "fields": {
+        "address": "410661, г. Лесной, ул. Школьная, 50"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 18,
+    "fields": {
+        "address": "625590, г. Лесной, ул. Коммунистическая, 20"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 19,
+    "fields": {
+        "address": "625683, г. Лесной, ул. 8 Марта"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 20,
+    "fields": {
+        "address": "450983, г.Лесной, ул. Комсомольская, 26"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 21,
+    "fields": {
+        "address": "394782, г. Лесной, ул. Чехова, 3"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 22,
+    "fields": {
+        "address": "603002, г. Лесной, ул. Дзержинского, 28"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 23,
+    "fields": {
+        "address": "450558, г. Лесной, ул. Набережная, 30"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 24,
+    "fields": {
+        "address": "344288, г. Лесной, ул. Чехова, 1"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 25,
+    "fields": {
+        "address": "614164, г.Лесной,  ул. Степная, 30"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 26,
+    "fields": {
+        "address": "394242, г. Лесной, ул. Коммунистическая, 43"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 27,
+    "fields": {
+        "address": "660540, г. Лесной, ул. Солнечная, 25"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 28,
+    "fields": {
+        "address": "125837, г. Лесной, ул. Шоссейная, 40"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 29,
+    "fields": {
+        "address": "125703, г. Лесной, ул. Партизанская, 49"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 30,
+    "fields": {
+        "address": "625283, г. Лесной, ул. Победы, 46"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 31,
+    "fields": {
+        "address": "614753, г. Лесной, ул. Полевая, 35"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 32,
+    "fields": {
+        "address": "426030, г. Лесной, ул. Маяковского, 44"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 33,
+    "fields": {
+        "address": "450375, г. Лесной ул. Клубная, 44"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 34,
+    "fields": {
+        "address": "625560, г. Лесной, ул. Некрасова, 12"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 35,
+    "fields": {
+        "address": "630201, г. Лесной, ул. Комсомольская, 17"
+    }
+},
+{
+    "model": "offices.office",
+    "pk": 36,
+    "fields": {
+        "address": "190949, г. Лесной, ул. Мичурина, 26"
+    }
 }
 ]
