@@ -360,6 +360,42 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 11,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 11,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 11,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 11,
+        "codename": "view_product"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -469,6 +505,14 @@
     "fields": {
         "app_label": "suppliers",
         "model": "supplier"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "products",
+        "model": "product"
     }
 },
 {
@@ -1199,6 +1243,546 @@
     "pk": 2,
     "fields": {
         "supplier_name": "Обувь для вас"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "sku": "А112Т4",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "4990.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Женская обувь",
+        "discount": "3.00",
+        "stock": 6,
+        "description": "Женские Ботинки демисезонные kari",
+        "photo": "1.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "sku": "F635R4",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "3244.00",
+        "supplier": 2,
+        "manufacturer": 4,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 13,
+        "description": "Ботинки Marco Tozzi женские демисезонные, размер 39, цвет бежевый",
+        "photo": "2.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "sku": "H782T5",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "4499.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Мужская обувь",
+        "discount": "4.00",
+        "stock": 5,
+        "description": "Туфли kari мужские классика MYZ21AW-450A, размер 43, цвет: черный",
+        "photo": "3.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "sku": "G783F5",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "5900.00",
+        "supplier": 1,
+        "manufacturer": 6,
+        "product_category": "Мужская обувь",
+        "discount": "2.00",
+        "stock": 8,
+        "description": "Мужские ботинки Рос-Обувь кожаные с натуральным мехом",
+        "photo": "4.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "sku": "J384T6",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "3800.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Мужская обувь",
+        "discount": "2.00",
+        "stock": 16,
+        "description": "B3430/14 Полуботинки мужские Rieker",
+        "photo": "5.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "sku": "D572U8",
+        "product_name": "Кроссовки",
+        "unit_of_measurement": "шт.",
+        "price": "4100.00",
+        "supplier": 2,
+        "manufacturer": 6,
+        "product_category": "Мужская обувь",
+        "discount": "3.00",
+        "stock": 6,
+        "description": "129615-4 Кроссовки мужские",
+        "photo": "6.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "sku": "F572H7",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "2700.00",
+        "supplier": 1,
+        "manufacturer": 4,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 14,
+        "description": "Туфли Marco Tozzi женские летние, размер 39, цвет черный",
+        "photo": "7.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "sku": "D329H3",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "1890.00",
+        "supplier": 2,
+        "manufacturer": 1,
+        "product_category": "Женская обувь",
+        "discount": "4.00",
+        "stock": 4,
+        "description": "Полуботинки Alessio Nesca женские 3-30797-47, размер 37, цвет: бордовый",
+        "photo": "8.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "sku": "B320R5",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "4300.00",
+        "supplier": 1,
+        "manufacturer": 5,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 6,
+        "description": "Туфли Rieker женские демисезонные, размер 41, цвет коричневый",
+        "photo": "9.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "sku": "G432E4",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "2800.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Женская обувь",
+        "discount": "3.00",
+        "stock": 15,
+        "description": "Туфли kari женские TR-YR-413017, размер 37, цвет: черный",
+        "photo": "10.jpg",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "sku": "S213E3",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "2156.00",
+        "supplier": 2,
+        "manufacturer": 2,
+        "product_category": "Мужская обувь",
+        "discount": "3.00",
+        "stock": 6,
+        "description": "407700/01-01 Полуботинки мужские CROSBY",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "sku": "E482R4",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "1800.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 14,
+        "description": "Полуботинки kari женские MYZ20S-149, размер 41, цвет: черный",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "sku": "S634B5",
+        "product_name": "Кеды",
+        "unit_of_measurement": "шт.",
+        "price": "5500.00",
+        "supplier": 2,
+        "manufacturer": 2,
+        "product_category": "Мужская обувь",
+        "discount": "3.00",
+        "stock": 0,
+        "description": "Кеды Caprice мужские демисезонные, размер 42, цвет черный",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "sku": "K345R4",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "2100.00",
+        "supplier": 2,
+        "manufacturer": 2,
+        "product_category": "Мужская обувь",
+        "discount": "2.00",
+        "stock": 3,
+        "description": "407700/01-02 Полуботинки мужские CROSBY",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "sku": "O754F4",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "5400.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Женская обувь",
+        "discount": "4.00",
+        "stock": 18,
+        "description": "Туфли женские демисезонные Rieker артикул 55073-68/37",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "sku": "G531F4",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "6600.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Женская обувь",
+        "discount": "12.00",
+        "stock": 9,
+        "description": "Ботинки женские зимние ROMER арт. 893167-01 Черный",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "sku": "J542F5",
+        "product_name": "Тапочки",
+        "unit_of_measurement": "шт.",
+        "price": "500.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Мужская обувь",
+        "discount": "13.00",
+        "stock": 0,
+        "description": "Тапочки мужские Арт.70701-55-67син р.41",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "sku": "B431R5",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "2700.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Мужская обувь",
+        "discount": "2.00",
+        "stock": 5,
+        "description": "Мужские кожаные ботинки/мужские ботинки",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "sku": "P764G4",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "6800.00",
+        "supplier": 1,
+        "manufacturer": 2,
+        "product_category": "Женская обувь",
+        "discount": "15.00",
+        "stock": 15,
+        "description": "Туфли женские, ARGO, размер 38",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "sku": "C436G5",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "10200.00",
+        "supplier": 1,
+        "manufacturer": 1,
+        "product_category": "Женская обувь",
+        "discount": "15.00",
+        "stock": 9,
+        "description": "Ботинки женские, ARGO, размер 40",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "sku": "F427R5",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "11800.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Женская обувь",
+        "discount": "15.00",
+        "stock": 11,
+        "description": "Ботинки на молнии с декоративной пряжкой FRAU",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "sku": "N457T5",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "4600.00",
+        "supplier": 1,
+        "manufacturer": 2,
+        "product_category": "Женская обувь",
+        "discount": "3.00",
+        "stock": 13,
+        "description": "Полуботинки Ботинки черные зимние, мех",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "sku": "D364R4",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "12400.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Женская обувь",
+        "discount": "16.00",
+        "stock": 5,
+        "description": "Туфли Luiza Belly женские Kate-lazo черные из натуральной замши",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "sku": "S326R5",
+        "product_name": "Тапочки",
+        "unit_of_measurement": "шт.",
+        "price": "9900.00",
+        "supplier": 2,
+        "manufacturer": 2,
+        "product_category": "Мужская обувь",
+        "discount": "17.00",
+        "stock": 15,
+        "description": "Мужские кожаные тапочки \"Профиль С.Дали\" ",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "sku": "L754R4",
+        "product_name": "Полуботинки",
+        "unit_of_measurement": "шт.",
+        "price": "1700.00",
+        "supplier": 1,
+        "manufacturer": 3,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 7,
+        "description": "Полуботинки kari женские WB2020SS-26, размер 38, цвет: черный",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "sku": "M542T5",
+        "product_name": "Кроссовки",
+        "unit_of_measurement": "шт.",
+        "price": "2800.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Мужская обувь",
+        "discount": "18.00",
+        "stock": 3,
+        "description": "Кроссовки мужские TOFA",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "sku": "D268G5",
+        "product_name": "Туфли",
+        "unit_of_measurement": "шт.",
+        "price": "4399.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Женская обувь",
+        "discount": "3.00",
+        "stock": 12,
+        "description": "Туфли Rieker женские демисезонные, размер 36, цвет коричневый",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "sku": "T324F5",
+        "product_name": "Сапоги",
+        "unit_of_measurement": "шт.",
+        "price": "4699.00",
+        "supplier": 1,
+        "manufacturer": 2,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 5,
+        "description": "Сапоги замша Цвет: синий",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "sku": "K358H6",
+        "product_name": "Тапочки",
+        "unit_of_measurement": "шт.",
+        "price": "599.00",
+        "supplier": 1,
+        "manufacturer": 5,
+        "product_category": "Мужская обувь",
+        "discount": "20.00",
+        "stock": 2,
+        "description": "Тапочки мужские син р.41",
+        "photo": "picture.png",
+        "version": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "sku": "H535R5",
+        "product_name": "Ботинки",
+        "unit_of_measurement": "шт.",
+        "price": "2300.00",
+        "supplier": 2,
+        "manufacturer": 5,
+        "product_category": "Женская обувь",
+        "discount": "2.00",
+        "stock": 7,
+        "description": "Женские Ботинки демисезонные",
+        "photo": "picture.png",
+        "version": 1
     }
 }
 ]
