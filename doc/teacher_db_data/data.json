@@ -300,7 +300,7 @@
     "pk": 1,
     "fields": {
         "password": "plaintext$$a",
-        "last_login": null,
+        "last_login": "2026-03-14T10:23:44.385Z",
         "is_superuser": true,
         "username": "a",
         "first_name": "a",
@@ -363,7 +363,7 @@
     "pk": 4,
     "fields": {
         "password": "plaintext$$g",
-        "last_login": null,
+        "last_login": "2026-03-14T10:23:47.448Z",
         "is_superuser": false,
         "username": "g",
         "first_name": "g",
@@ -376,6 +376,196 @@
         "groups": [
             4
         ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "plaintext$$uzWC67",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "94d5ous@gmail.com",
+        "first_name": "Весения",
+        "last_name": "Никифорова",
+        "email": "94d5ous@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Николаевна",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "plaintext$$2L6KZG",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "uth4iz@mail.com",
+        "first_name": "Руслан",
+        "last_name": "Сазонов",
+        "email": "uth4iz@mail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Германович",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "plaintext$$JlFRCZ",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "yzls62@outlook.com",
+        "first_name": "Серафим",
+        "last_name": "Одинцов",
+        "email": "yzls62@outlook.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Артёмович",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 8,
+    "fields": {
+        "password": "plaintext$$8ntwUp",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "1diph5e@tutanota.com",
+        "first_name": "Михаил",
+        "last_name": "Степанов",
+        "email": "1diph5e@tutanota.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Артёмович",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 9,
+    "fields": {
+        "password": "plaintext$$YOyhfR",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "tjde7c@yahoo.com",
+        "first_name": "Петр",
+        "last_name": "Ворсин",
+        "email": "tjde7c@yahoo.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Евгеньевич",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 10,
+    "fields": {
+        "password": "plaintext$$RSbvHv",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "wpmrc3do@tutanota.com",
+        "first_name": "Елена",
+        "last_name": "Старикова",
+        "email": "wpmrc3do@tutanota.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Павловна",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 11,
+    "fields": {
+        "password": "plaintext$$rwVDh9",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "5d4zbu@tutanota.com",
+        "first_name": "Анна",
+        "last_name": "Михайлюк",
+        "email": "5d4zbu@tutanota.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Вячеславовна",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 12,
+    "fields": {
+        "password": "plaintext$$LdNyos",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ptec8ym@yahoo.com",
+        "first_name": "Елена",
+        "last_name": "Ситдикова",
+        "email": "ptec8ym@yahoo.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Анатольевна",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 13,
+    "fields": {
+        "password": "plaintext$$gynQMT",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "1qz4kw@mail.com",
+        "first_name": "Петр",
+        "last_name": "Ворсин",
+        "email": "1qz4kw@mail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Евгеньевич",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 14,
+    "fields": {
+        "password": "plaintext$$AtnDjr",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "4np6se@mail.com",
+        "first_name": "Елена",
+        "last_name": "Старикова",
+        "email": "4np6se@mail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-03-14T10:23:44.385Z",
+        "patronymic": "Павловна",
+        "groups": [],
         "user_permissions": []
     }
 }
