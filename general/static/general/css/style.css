@@ -28,15 +28,15 @@
 .text-content-success { font-weight: 500; }
 
 @font-face {
-  font-family: "OpenSans";
-  src: url("/static/general/font/OpenSans.ttf");
+  font-family: "Pacifico-Regular";
+  src: url("/static/general/font/Pacifico-Regular.ttf");
 }
 
 body.body-font-customized {
   /* PREP {
   font-family: "Times New Roman", Times, serif;
   }PREP */
-  font-family: "OpenSans", "Arial", sans-serif;
+  font-family: "Pacifico-Regular", "Arial", sans-serif;
 }
 
 body.body-background-customized {
