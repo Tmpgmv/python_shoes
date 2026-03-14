@@ -14,3 +14,12 @@ class HomeView(ListView):  # PREP
         form = SearchSortFilterForm(self.request.GET)
         context['form'] = form
         return context
+
+    def get_queryset(self):
+        sort_by_stock = self.request.GET.get("stock", "more")
+        search_phrase = self.request.GET.get("search", None)
+        supplier_id = self.request.GET.get("supplier", None)
+
+        queryset = super().get_queryset()
+
+        return queryset
