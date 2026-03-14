@@ -27,4 +27,7 @@ class HomeView(ListView):  # PREP
         else:
             queryset = queryset.order_by("stock")
 
+        if supplier_id:
+            queryset = queryset.filter(supplier_id=supplier_id)
+
         return queryset
