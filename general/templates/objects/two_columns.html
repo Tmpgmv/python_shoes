@@ -38,8 +38,7 @@ https://getbootstrap.com/docs/5.3/utilities/spacing/#gap
         <p>{{ object.delivery_date }}</p>
 
         {% if user.is_superuser %}
-        {% comment %}<a class="btn del-button position-absolute z-3" href="{% url 'object_delete' object.pk %}">{%
-        bs_icon 'trash' %}</a>{% endcomment %}
+            <a class="btn del-button position-absolute z-3" href="{% url 'order_delete' object.pk %}">{% bs_icon 'trash' %}</a>
         {% endif %}
     </div>
     {% if user.is_superuser %}
