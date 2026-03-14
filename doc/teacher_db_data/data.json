@@ -1370,6 +1370,18 @@
     }
 },
 {
+    "model": "orders.order",
+    "pk": 13,
+    "fields": {
+        "order_date": "2026-03-15",
+        "delivery_date": "2026-03-15",
+        "office": 3,
+        "client": 8,
+        "code": 913,
+        "status": "Новый"
+    }
+},
+{
     "model": "manufacturers.manufacturer",
     "pk": 1,
     "fields": {
