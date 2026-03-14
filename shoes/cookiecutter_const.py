@@ -1,0 +1,8 @@
+# PREP {
+STUDENT_FULL_NAME_RUS = "Граблевский Михаил Владимирович"
+PROJECT_NAME_RUS = "ООО \"Обувь\""
+PROJECT_DESCRIPTION =  "Магазин обуви."
+MAIN_BACKGROUND_COLOR = "#FFFFFF"
+AUX_BACKGROUND_COLOR = "#7FFF00"
+ATTENTION_COLOR = "#00FA9A"
+# } PREP
