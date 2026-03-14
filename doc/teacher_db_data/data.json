@@ -324,6 +324,42 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add supplier",
+        "content_type": 10,
+        "codename": "add_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change supplier",
+        "content_type": 10,
+        "codename": "change_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete supplier",
+        "content_type": 10,
+        "codename": "delete_supplier"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view supplier",
+        "content_type": 10,
+        "codename": "view_supplier"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -425,6 +461,14 @@
     "fields": {
         "app_label": "manufacturers",
         "model": "manufacturer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "suppliers",
+        "model": "supplier"
     }
 },
 {
@@ -1141,6 +1185,20 @@
     "pk": 6,
     "fields": {
         "manufacturer_name": "Рос"
+    }
+},
+{
+    "model": "suppliers.supplier",
+    "pk": 1,
+    "fields": {
+        "supplier_name": "Kari"
+    }
+},
+{
+    "model": "suppliers.supplier",
+    "pk": 2,
+    "fields": {
+        "supplier_name": "Обувь для вас"
     }
 }
 ]
