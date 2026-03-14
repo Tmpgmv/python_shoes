@@ -3,12 +3,15 @@
 {% load bootstrap_icons %}
 
 {% block title %}
-Главная страница
+Товары
 {% endblock %}
 
 {% block h %}
-Главная страница
+Товары
 {% endblock %}
 
 {% block content %}
+    {% for object in object_list %}
+        {% include 'objects/three_columns.html' %}
+    {% endfor %}
 {% endblock %}
