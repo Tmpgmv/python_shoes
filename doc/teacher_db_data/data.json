@@ -394,7 +394,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Николаевна",
-        "groups": [],
+        "groups": [
+            1
+        ],
         "user_permissions": []
     }
 },
@@ -413,7 +415,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Германович",
-        "groups": [],
+        "groups": [
+            1
+        ],
         "user_permissions": []
     }
 },
@@ -432,7 +436,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Артёмович",
-        "groups": [],
+        "groups": [
+            1
+        ],
         "user_permissions": []
     }
 },
@@ -451,7 +457,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Артёмович",
-        "groups": [],
+        "groups": [
+            3
+        ],
         "user_permissions": []
     }
 },
@@ -470,7 +478,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Евгеньевич",
-        "groups": [],
+        "groups": [
+            3
+        ],
         "user_permissions": []
     }
 },
@@ -489,7 +499,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Павловна",
-        "groups": [],
+        "groups": [
+            3
+        ],
         "user_permissions": []
     }
 },
@@ -508,7 +520,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Вячеславовна",
-        "groups": [],
+        "groups": [
+            2
+        ],
         "user_permissions": []
     }
 },
@@ -527,7 +541,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Анатольевна",
-        "groups": [],
+        "groups": [
+            2
+        ],
         "user_permissions": []
     }
 },
@@ -546,7 +562,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Евгеньевич",
-        "groups": [],
+        "groups": [
+            2
+        ],
         "user_permissions": []
     }
 },
@@ -565,7 +583,9 @@
         "is_active": true,
         "date_joined": "2026-03-14T10:23:44.385Z",
         "patronymic": "Павловна",
-        "groups": [],
+        "groups": [
+            2
+        ],
         "user_permissions": []
     }
 }
