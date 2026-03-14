@@ -20,7 +20,19 @@
       {% if user.is_admin %}
         <a id="create-product" class="btn attention" href="{% url 'product_create' %}">Добавить товар</a>
       {% endif %}
+
+      {% if user.is_admin or user.is_manager %}
+        <div class="container my-4">
+          <table>
+            <form id="search-sort-filter">
+              {% csrf_token %}
+              {{ form.as_table }}
+            </form>
+          </table>
+        </div>
+      {% endif %}
     </div>
+
     {% for object in object_list %}
         {% include 'objects/three_columns.html' %}
     {% endfor %}
