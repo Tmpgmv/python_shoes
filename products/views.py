@@ -1,4 +1,7 @@
+from django.contrib import messages
 from django.contrib.messages.views import SuccessMessageMixin
+from django.db.models import ProtectedError
+from django.shortcuts import redirect
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, UpdateView, DeleteView
 
@@ -28,3 +31,10 @@ class ProductDeleteView(SuccessMessageMixin,
     model = Product
     success_url = reverse_lazy('home')
     success_message = "Товар удален."
+
+    def post(self, request, *args, **kwargs):
+        try:
+            return super().post(request, *args, **kwargs)
+        except ProtectedError:
+            messages.error(request, "Товар, который присутствует в заказе, удалить нельзя.")
+            return redirect("home")
