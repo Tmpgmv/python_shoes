@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     # STUD! {
     "offices",
     "orders",
+    "manufacturers",
     # } STUD!
 
     # PREP {
