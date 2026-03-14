@@ -24,7 +24,7 @@ from django.conf import settings  # PREP
 from django.conf.urls.static import static  # PREP
 
 from home.views import HomeView
-from products.views import ProductCreateView
+from products.views import ProductCreateView, ProductUpdateView
 
 urlpatterns = [
     path("accounts/", include("django.contrib.auth.urls")),
@@ -34,7 +34,7 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
-
+    path('products/<int:pk>/update/', ProductUpdateView.as_view(), name='product_update'),
 )
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
