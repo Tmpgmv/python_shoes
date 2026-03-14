@@ -24,6 +24,7 @@ from django.conf import settings  # PREP
 from django.conf.urls.static import static  # PREP
 
 from home.views import HomeView
+from orders.views import OrderListView
 from products.views import ProductCreateView, ProductUpdateView, ProductDeleteView
 
 urlpatterns = [
@@ -32,6 +33,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('products/create/', login_required(ProductCreateView.as_view()), name='product_create'),
     path('products/<int:pk>/delete/', login_required(ProductDeleteView.as_view()), name='product_delete'),
+    path('orders/', login_required(OrderListView.as_view()), name='order_list'),
 ]
 
 urlpatterns += i18n_patterns(
