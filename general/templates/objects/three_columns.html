@@ -33,6 +33,6 @@ PREP См. комментарий к two_columns.html.
         {% endif %}
     </div>
     {% if user.is_superuser %}
-        <a href="{# PREP {% url 'object_update' object.pk %} #}" class="stretched-link"></a>
+        <a href="{% url 'product_update' object.pk %}" class="stretched-link"></a>
     {% endif %}
 </div>
