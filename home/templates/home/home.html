@@ -11,6 +11,11 @@
 {% endblock %}
 
 {% block content %}
+    <div class="container my-4">
+      {% if user.is_admin %}
+        <a id="create-product" class="btn attention" href="{% url 'product_create' %}">Добавить товар</a>
+      {% endif %}
+    </div>
     {% for object in object_list %}
         {% include 'objects/three_columns.html' %}
     {% endfor %}
