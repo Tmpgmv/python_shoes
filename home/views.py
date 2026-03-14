@@ -1,3 +1,4 @@
+from django.contrib.postgres.search import SearchVector
 from django.views.generic import ListView  # PREP
 
 from products.forms import SearchSortFilterForm
@@ -29,5 +30,13 @@ class HomeView(ListView):  # PREP
 
         if supplier_id:
             queryset = queryset.filter(supplier_id=supplier_id)
+
+        if search_phrase:
+            queryset = queryset.annotate(search=SearchVector('sku',
+                                                             'product_name',
+                                                             'unit_of_measurement',
+                                                             'product_category',
+                                                             'description')).filter(
+                search__icontains=search_phrase)
 
         return queryset
