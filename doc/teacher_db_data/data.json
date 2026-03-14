@@ -1,5 +1,96 @@
 [
 {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-03-14T19:30:58.194Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "36",
+        "object_repr": "36: Ботинки: ffffff",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-03-14T19:30:58.195Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "35",
+        "object_repr": "35: Полуботинки: eeeeeeee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-03-14T19:30:58.195Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "34",
+        "object_repr": "34: Кроссовки: ddd",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-03-14T19:30:58.195Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "33",
+        "object_repr": "33: Полуботинки: cccccc",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-03-14T19:30:58.195Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "32",
+        "object_repr": "32: Кеды: bbbbbbb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-03-14T20:43:30.955Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Заказ: 11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-03-14T20:43:48.707Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Заказ: 12",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -1242,6 +1333,30 @@
     }
 },
 {
+    "model": "orders.order",
+    "pk": 11,
+    "fields": {
+        "order_date": "2026-03-14",
+        "delivery_date": "2026-03-14",
+        "office": 5,
+        "client": 14,
+        "code": 911,
+        "status": "Новый"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 12,
+    "fields": {
+        "order_date": "2026-03-14",
+        "delivery_date": "2026-03-15",
+        "office": 7,
+        "client": 12,
+        "code": 912,
+        "status": "Новый"
+    }
+},
+{
     "model": "manufacturers.manufacturer",
     "pk": 1,
     "fields": {
@@ -1312,7 +1427,7 @@
         "stock": 6,
         "description": "Женские Ботинки демисезонные kari",
         "photo": "1.jpg",
-        "version": 1
+        "version": 1773516102496211
     }
 },
 {
@@ -1330,7 +1445,7 @@
         "stock": 13,
         "description": "Ботинки Marco Tozzi женские демисезонные, размер 39, цвет бежевый",
         "photo": "2.jpg",
-        "version": 1
+        "version": 1773516102497368
     }
 },
 {
@@ -1348,7 +1463,7 @@
         "stock": 5,
         "description": "Туфли kari мужские классика MYZ21AW-450A, размер 43, цвет: черный",
         "photo": "3.jpg",
-        "version": 1
+        "version": 1773516102498277
     }
 },
 {
@@ -1366,7 +1481,7 @@
         "stock": 8,
         "description": "Мужские ботинки Рос-Обувь кожаные с натуральным мехом",
         "photo": "4.jpg",
-        "version": 1
+        "version": 1773516102499207
     }
 },
 {
@@ -1384,7 +1499,7 @@
         "stock": 16,
         "description": "B3430/14 Полуботинки мужские Rieker",
         "photo": "5.jpg",
-        "version": 1
+        "version": 1773516102500132
     }
 },
 {
@@ -1402,7 +1517,7 @@
         "stock": 6,
         "description": "129615-4 Кроссовки мужские",
         "photo": "6.jpg",
-        "version": 1
+        "version": 1773516102501131
     }
 },
 {
@@ -1420,7 +1535,7 @@
         "stock": 14,
         "description": "Туфли Marco Tozzi женские летние, размер 39, цвет черный",
         "photo": "7.jpg",
-        "version": 1
+        "version": 1773516102502110
     }
 },
 {
@@ -1438,7 +1553,7 @@
         "stock": 4,
         "description": "Полуботинки Alessio Nesca женские 3-30797-47, размер 37, цвет: бордовый",
         "photo": "8.jpg",
-        "version": 1
+        "version": 1773516102503323
     }
 },
 {
@@ -1456,7 +1571,7 @@
         "stock": 6,
         "description": "Туфли Rieker женские демисезонные, размер 41, цвет коричневый",
         "photo": "9.jpg",
-        "version": 1
+        "version": 1773516102504424
     }
 },
 {
@@ -1474,7 +1589,7 @@
         "stock": 15,
         "description": "Туфли kari женские TR-YR-413017, размер 37, цвет: черный",
         "photo": "10.jpg",
-        "version": 1
+        "version": 1773516102505438
     }
 },
 {
@@ -1492,7 +1607,7 @@
         "stock": 6,
         "description": "407700/01-01 Полуботинки мужские CROSBY",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102506459
     }
 },
 {
@@ -1510,7 +1625,7 @@
         "stock": 14,
         "description": "Полуботинки kari женские MYZ20S-149, размер 41, цвет: черный",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102507455
     }
 },
 {
@@ -1528,7 +1643,7 @@
         "stock": 0,
         "description": "Кеды Caprice мужские демисезонные, размер 42, цвет черный",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102508445
     }
 },
 {
@@ -1546,7 +1661,7 @@
         "stock": 3,
         "description": "407700/01-02 Полуботинки мужские CROSBY",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102509414
     }
 },
 {
@@ -1564,7 +1679,7 @@
         "stock": 18,
         "description": "Туфли женские демисезонные Rieker артикул 55073-68/37",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102510342
     }
 },
 {
@@ -1582,7 +1697,7 @@
         "stock": 9,
         "description": "Ботинки женские зимние ROMER арт. 893167-01 Черный",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102511265
     }
 },
 {
@@ -1600,7 +1715,7 @@
         "stock": 0,
         "description": "Тапочки мужские Арт.70701-55-67син р.41",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102512196
     }
 },
 {
@@ -1618,7 +1733,7 @@
         "stock": 5,
         "description": "Мужские кожаные ботинки/мужские ботинки",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102513135
     }
 },
 {
@@ -1636,7 +1751,7 @@
         "stock": 15,
         "description": "Туфли женские, ARGO, размер 38",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102514093
     }
 },
 {
@@ -1654,7 +1769,7 @@
         "stock": 9,
         "description": "Ботинки женские, ARGO, размер 40",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102515107
     }
 },
 {
@@ -1672,7 +1787,7 @@
         "stock": 11,
         "description": "Ботинки на молнии с декоративной пряжкой FRAU",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102516130
     }
 },
 {
@@ -1690,7 +1805,7 @@
         "stock": 13,
         "description": "Полуботинки Ботинки черные зимние, мех",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102517108
     }
 },
 {
@@ -1708,7 +1823,7 @@
         "stock": 5,
         "description": "Туфли Luiza Belly женские Kate-lazo черные из натуральной замши",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102518133
     }
 },
 {
@@ -1726,7 +1841,7 @@
         "stock": 15,
         "description": "Мужские кожаные тапочки \"Профиль С.Дали\" ",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102519150
     }
 },
 {
@@ -1744,7 +1859,7 @@
         "stock": 7,
         "description": "Полуботинки kari женские WB2020SS-26, размер 38, цвет: черный",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102520182
     }
 },
 {
@@ -1762,7 +1877,7 @@
         "stock": 3,
         "description": "Кроссовки мужские TOFA",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102521177
     }
 },
 {
@@ -1780,7 +1895,7 @@
         "stock": 12,
         "description": "Туфли Rieker женские демисезонные, размер 36, цвет коричневый",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102522160
     }
 },
 {
@@ -1798,7 +1913,7 @@
         "stock": 5,
         "description": "Сапоги замша Цвет: синий",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102523072
     }
 },
 {
@@ -1816,7 +1931,7 @@
         "stock": 2,
         "description": "Тапочки мужские син р.41",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102524108
     }
 },
 {
@@ -1834,7 +1949,7 @@
         "stock": 7,
         "description": "Женские Ботинки демисезонные",
         "photo": "picture.png",
-        "version": 1
+        "version": 1773516102525136
     }
 },
 {
@@ -1852,25 +1967,7 @@
         "stock": 2,
         "description": "aaaaaaaa",
         "photo": "car.jpeg",
-        "version": 1773515018759038
-    }
-},
-{
-    "model": "products.product",
-    "pk": 32,
-    "fields": {
-        "sku": "bbbbbb",
-        "product_name": "Кеды",
-        "unit_of_measurement": "шт.",
-        "price": "20.00",
-        "supplier": 1,
-        "manufacturer": 1,
-        "product_category": "Женская обувь",
-        "discount": "3.00",
-        "stock": 333,
-        "description": "bbbbbbb",
-        "photo": "kettle.jpeg",
-        "version": 1773515280859743
+        "version": 1773516102526166
     }
 },
 {
@@ -1888,7 +1985,7 @@
         "stock": 111,
         "description": "cccccc",
         "photo": "pencil.jpeg",
-        "version": 1773515316240107
+        "version": 1773516102528096
     }
 },
 {
@@ -1906,7 +2003,7 @@
         "stock": 222,
         "description": "ddd",
         "photo": "picture.png",
-        "version": 1773515350965540
+        "version": 1773516102528987
     }
 },
 {
@@ -1924,7 +2021,7 @@
         "stock": 33333,
         "description": "eeeeeeee",
         "photo": "picture.png",
-        "version": 1773515385957708
+        "version": 1773516102529788
     }
 },
 {
@@ -1942,7 +2039,7 @@
         "stock": 5,
         "description": "ffffff",
         "photo": "girl.jpeg",
-        "version": 1773515422261446
+        "version": 1773516102530617
     }
 },
 {
