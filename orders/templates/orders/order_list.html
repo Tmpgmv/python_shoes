@@ -1,0 +1,17 @@
+{% extends "general/base.html" %}
+
+{% block title %}Заказы{% endblock %}
+
+{% block h %}Заказы{% endblock %}
+
+{% block content %}
+
+<div class="container my-4 px-0">
+    <a class="btn attention" href="{% url 'home' %}">Назад</a>
+</div>
+
+{% for object in object_list %}
+    {% include 'objects/two_columns.html' %}
+{% endfor %}
+
+{% endblock %}
