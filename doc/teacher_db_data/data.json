@@ -91,6 +91,19 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-03-14T20:52:45.287Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "21",
+        "object_repr": "Товар: 31, Заказ: 11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -2220,6 +2233,15 @@
         "order": 10,
         "product": 12,
         "amount": "5.00"
+    }
+},
+{
+    "model": "order_products.orderproduct",
+    "pk": 21,
+    "fields": {
+        "order": 11,
+        "product": 31,
+        "amount": "2.00"
     }
 }
 ]
