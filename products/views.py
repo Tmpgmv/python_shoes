@@ -1,7 +1,8 @@
 from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
-from django.views.generic import CreateView
+from django.views.generic import CreateView, UpdateView
 
+from general.mixins import ConcurrentUpdateMixin
 from products.forms import ProductForm
 from products.models import Product
 
@@ -11,3 +12,12 @@ class ProductCreateView(SuccessMessageMixin, CreateView):
     form_class = ProductForm
     success_url = reverse_lazy("home")
     success_message = "Товар добавлен."
+
+
+class ProductUpdateView(SuccessMessageMixin,
+                        ConcurrentUpdateMixin,
+                        UpdateView):
+    model = Product
+    form_class = ProductForm
+    success_url = reverse_lazy('home')
+    success_message = "Товар обновлен."
