@@ -8,6 +8,6 @@ class OrderForm(forms.ModelForm):
         model = Order
         exclude = ['code', ]
         widgets = {
-            'order_date': forms.DateInput(attrs={'type': 'date'}),
-            'delivery_date': forms.DateInput(attrs={'type': 'date'}),
+            'order_date': forms.DateInput(attrs={'type': 'date'}, format=('%Y-%m-%d'),),
+            'delivery_date': forms.DateInput(attrs={'type': 'date'}, format=('%Y-%m-%d'),),
         }
