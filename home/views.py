@@ -22,4 +22,9 @@ class HomeView(ListView):  # PREP
 
         queryset = super().get_queryset()
 
+        if sort_by_stock == "more":
+            queryset = queryset.order_by("-stock")
+        else:
+            queryset = queryset.order_by("stock")
+
         return queryset
