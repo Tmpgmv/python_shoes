@@ -63,5 +63,14 @@ class Product(models.Model):
 
     version = IntegerVersionField()
 
+    def get_price(self):
+        result = f"{str(self.price)} руб."
+
+        if self.discount > 0:
+            new_price = (self.price - self.price * (self.discount)/100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
+            result = f"<span class='old-price'>{str(self.price)}</span> {str(new_price)} руб. </span>"
+
+        return result
+
     def __str__(self):
         return "" + str(self.pk) + ": " + self.product_name + ": " + self.description
