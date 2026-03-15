@@ -19,7 +19,7 @@ PREP См. комментарий к two_columns.html.
         <p>Описание товара: {{ object.description }}</p>
         <p>Производитель: {{ object.manufacturer.manufacturer_name }}</p>
         <p>Поставщик: {{ object.supplier.supplier_name }}</p>
-        <p>Цена: {{ object.price }}</p>
+        <p>Цена: {{ object.get_price|safe }}</p>
         <p>Единица измерения: {{ object.unit_of_measurement }}</p>
         <p>Количество на складе: {{ object.stock }}</p>
         <p>Id: {{ object.pk }}</p>
