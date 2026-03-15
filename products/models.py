@@ -68,7 +68,7 @@ class Product(models.Model):
 
         if self.discount > 0:
             new_price = (self.price - self.price * (self.discount)/100).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
-            result = f"<span class='old-price'>{str(self.price)}</span> {str(new_price)} руб. </span>"
+            result = f"<span class='old-price'>{str(self.price)}</span> {str(new_price)} руб.</span>"
 
         return result
 
