@@ -117,4 +117,9 @@ body.body-background-customized {
 .out-of-stock {
     background-color: lightblue;
 }
+
+.old-price {
+    color: red;
+    text-decoration: line-through;
+}
 /* } STUD! */
