@@ -1,4 +1,4 @@
-from decimal import Decimal
+from decimal import Decimal, ROUND_HALF_UP
 
 from concurrency.fields import IntegerVersionField
 from django.core.validators import MinValueValidator
