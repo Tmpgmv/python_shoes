@@ -665,18 +665,18 @@
 },
 {
     "model": "sessions.session",
-    "pk": "mok27msvj8fm3qqu78wq3d9s5qggok2e",
+    "pk": "ebshksw0lq1zk11jrgh3gv4xggy4rhd4",
     "fields": {
-        "session_data": ".eJxVjEEOgjAQRe_StWmK03YYl-45A5l2RosaSCisjHcXEha6_e-9_zY9r0vp16pzP4i5mMacfrfE-anjDuTB432yeRqXeUh2V-xBq-0m0df1cP8OCtey1e0th-iSxlYkeYyIGDypostAqIAJaUOgxIEApDmzUuvIBYos4M3nC9_xN3U:1w1UUx:8EzYbguoBxKB7omtt1Hamsh2ulUnphj7P520K1D5FZg",
-        "expire_date": "2026-03-28T19:18:07.543Z"
+        "session_data": ".eJxVjDsOwjAQBe_iGlnrxE4cSnrOYO16n0kAJVI-FeLuECkFtG9m3ssk3tY-bQvmNKg5m2BOv5twfmDcgd55vE02T-M6D2J3xR50sddJ8bwc7t9Bz0v_rT1FIFa5RovG1WDiJniUhj2k7TriIBGda6OSuiK5coVEUZi8VJHM-wP14jiL:1w1edK:jY7iC_55mrjfbDv-rQjbfRcGdu-KcCU29zvw8T3cPhQ",
+        "expire_date": "2026-03-29T06:07:26.957Z"
     }
 },
 {
     "model": "sessions.session",
-    "pk": "nrial0huv985rw0gz6czq9n5lhnclcjx",
+    "pk": "mok27msvj8fm3qqu78wq3d9s5qggok2e",
     "fields": {
-        "session_data": ".eJxVjEEOgjAQRe_StWmK03YYl-45A5l2RosaSCisjHcXEha6_e-9_zY9r0vp16pzP4i5mMacfrfE-anjDuTB432yeRqXeUh2V-xBq-0m0df1cP8OCtey1e0th-iSxlYkeYyIGDypostAqIAJaUOgxIEApDmzUuvIBYos4M3nC9_xN3U:1w1UTW:O8YYYQkPl4bHi3Xjxa3cqp0b_Ff2OlWhzfaXGhTX_UU",
-        "expire_date": "2026-03-28T19:16:38.161Z"
+        "session_data": ".eJxVjEEOgjAQRe_StWmK03YYl-45A5l2RosaSCisjHcXEha6_e-9_zY9r0vp16pzP4i5mMacfrfE-anjDuTB432yeRqXeUh2V-xBq-0m0df1cP8OCtey1e0th-iSxlYkeYyIGDypostAqIAJaUOgxIEApDmzUuvIBYos4M3nC9_xN3U:1w1UUx:8EzYbguoBxKB7omtt1Hamsh2ulUnphj7P520K1D5FZg",
+        "expire_date": "2026-03-28T19:18:07.543Z"
     }
 },
 {
@@ -768,7 +768,7 @@
     "pk": 5,
     "fields": {
         "password": "plaintext$$uzWC67",
-        "last_login": "2026-03-14T12:06:09.481Z",
+        "last_login": "2026-03-15T06:07:26.948Z",
         "is_superuser": true,
         "username": "94d5ous@gmail.com",
         "first_name": "Весения",
@@ -1343,42 +1343,6 @@
         "client": 8,
         "code": 910,
         "status": "Новый "
-    }
-},
-{
-    "model": "orders.order",
-    "pk": 11,
-    "fields": {
-        "order_date": "2026-03-14",
-        "delivery_date": "2026-03-15",
-        "office": 5,
-        "client": 14,
-        "code": 911,
-        "status": "Новый"
-    }
-},
-{
-    "model": "orders.order",
-    "pk": 12,
-    "fields": {
-        "order_date": "2026-03-14",
-        "delivery_date": "2026-03-15",
-        "office": 7,
-        "client": 12,
-        "code": 912,
-        "status": "Новый"
-    }
-},
-{
-    "model": "orders.order",
-    "pk": 13,
-    "fields": {
-        "order_date": "2026-03-15",
-        "delivery_date": "2026-03-15",
-        "office": 3,
-        "client": 8,
-        "code": 913,
-        "status": "Новый"
     }
 },
 {
@@ -1978,96 +1942,6 @@
     }
 },
 {
-    "model": "products.product",
-    "pk": 31,
-    "fields": {
-        "sku": "aaaaaa",
-        "product_name": "Кроссовки",
-        "unit_of_measurement": "шт.",
-        "price": "100.00",
-        "supplier": 1,
-        "manufacturer": 4,
-        "product_category": "Женская обувь",
-        "discount": "3.00",
-        "stock": 2,
-        "description": "aaaaaaaa",
-        "photo": "car.jpeg",
-        "version": 1773516102526166
-    }
-},
-{
-    "model": "products.product",
-    "pk": 33,
-    "fields": {
-        "sku": "ccccc",
-        "product_name": "Полуботинки",
-        "unit_of_measurement": "шт.",
-        "price": "444.00",
-        "supplier": 1,
-        "manufacturer": 1,
-        "product_category": "Женская обувь",
-        "discount": "12.00",
-        "stock": 111,
-        "description": "cccccc",
-        "photo": "pencil.jpeg",
-        "version": 1773516102528096
-    }
-},
-{
-    "model": "products.product",
-    "pk": 34,
-    "fields": {
-        "sku": "ddd",
-        "product_name": "Кроссовки",
-        "unit_of_measurement": "шт.",
-        "price": "333.00",
-        "supplier": 1,
-        "manufacturer": 1,
-        "product_category": "Женская обувь",
-        "discount": "33.00",
-        "stock": 222,
-        "description": "ddd",
-        "photo": "picture.png",
-        "version": 1773516102528987
-    }
-},
-{
-    "model": "products.product",
-    "pk": 35,
-    "fields": {
-        "sku": "eeeeee",
-        "product_name": "Полуботинки",
-        "unit_of_measurement": "шт.",
-        "price": "22222.00",
-        "supplier": 1,
-        "manufacturer": 4,
-        "product_category": "Мужская обувь",
-        "discount": "3.00",
-        "stock": 33333,
-        "description": "eeeeeeee",
-        "photo": "picture.png",
-        "version": 1773516102529788
-    }
-},
-{
-    "model": "products.product",
-    "pk": 36,
-    "fields": {
-        "sku": "ffffff",
-        "product_name": "Ботинки",
-        "unit_of_measurement": "шт.",
-        "price": "843.00",
-        "supplier": 1,
-        "manufacturer": 1,
-        "product_category": "Женская обувь",
-        "discount": "2.00",
-        "stock": 5,
-        "description": "ffffff",
-        "photo": "girl.jpeg",
-        "version": 1773516102530617
-    }
-},
-{
     "model": "order_products.orderproduct",
     "pk": 1,
     "fields": {
@@ -2245,15 +2119,6 @@
         "order": 10,
         "product": 12,
         "amount": "5.00"
-    }
-},
-{
-    "model": "order_products.orderproduct",
-    "pk": 21,
-    "fields": {
-        "order": 11,
-        "product": 31,
-        "amount": "2.00"
     }
 }
 ]
